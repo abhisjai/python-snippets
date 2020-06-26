@@ -61,7 +61,6 @@ def isWordGuessed(secretWord, lettersGuessed):
     
     return True
 
-
 def getGuessedWord(secretWord, lettersGuessed):
     '''
     secretWord: string, the word the user is guessing
@@ -80,7 +79,6 @@ def getGuessedWord(secretWord, lettersGuessed):
             word.append("_ ")
 
     return "".join(word)
-
 
 def getAvailableLetters(lettersGuessed):
     '''
